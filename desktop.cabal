@@ -1,0 +1,139 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.1.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: f61c5ab9547dc81c23c39c0a9a15f3976f2099f78b00c94c3f7b5e0a25289bba
+
+name:           desktop
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/mdnotes#readme>
+homepage:       https://github.com/githubuser/desktop#readme
+bug-reports:    https://github.com/githubuser/desktop/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2019 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+data-files:
+    res/ui/asset-manifest.json
+    res/ui/favicon.ico
+    res/ui/index.html
+    res/ui/logo.svg
+    res/ui/manifest.json
+    res/ui/service-worker.js
+    res/ui/static/css/main.47759a34.chunk.css
+    res/ui/static/css/main.47759a34.chunk.css.map
+    res/ui/static/js/main.13dcbf68.chunk.js
+    res/ui/static/js/main.13dcbf68.chunk.js.map
+    res/ui/static/js/runtime~main.d53d57e4.js
+    res/ui/static/js/runtime~main.d53d57e4.js.map
+    res/ui/static/js/vendors~main.3ca81432.chunk.js
+    res/ui/static/js/vendors~main.3ca81432.chunk.js.map
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/desktop
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_desktop
+  hs-source-dirs:
+      src
+  build-depends:
+      BoundedChan
+    , aeson
+    , base >=4.7 && <5
+    , clay
+    , containers
+    , elm-bridge
+    , interpolatedstring-perl6
+    , jmacro
+    , lens
+    , mtl
+    , servant
+    , servant-elm
+    , servant-server
+    , stm
+    , text
+    , text-format-heavy
+    , transformers
+    , wai
+    , wai-cors
+    , warp
+    , webviewhs
+  default-language: Haskell2010
+
+executable desktop
+  main-is: Main.hs
+  other-modules:
+      Additional
+      Api
+      Paths_desktop
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      BoundedChan
+    , aeson
+    , base >=4.7 && <5
+    , clay
+    , containers
+    , desktop
+    , elm-bridge
+    , interpolatedstring-perl6
+    , jmacro
+    , lens
+    , mtl
+    , servant
+    , servant-elm
+    , servant-server
+    , stm
+    , text
+    , text-format-heavy
+    , transformers
+    , wai
+    , wai-cors
+    , warp
+    , webviewhs
+  default-language: Haskell2010
+
+test-suite desktop-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_desktop
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      BoundedChan
+    , aeson
+    , base >=4.7 && <5
+    , clay
+    , containers
+    , desktop
+    , elm-bridge
+    , interpolatedstring-perl6
+    , jmacro
+    , lens
+    , mtl
+    , servant
+    , servant-elm
+    , servant-server
+    , stm
+    , text
+    , text-format-heavy
+    , transformers
+    , wai
+    , wai-cors
+    , warp
+    , webviewhs
+  default-language: Haskell2010
