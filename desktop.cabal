@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f61c5ab9547dc81c23c39c0a9a15f3976f2099f78b00c94c3f7b5e0a25289bba
+-- hash: d9e32b194d2aeeec6b1c50611c78cfa8f9c3521bb18c0319da54a82e93b50fd4
 
 name:           desktop
 version:        0.1.0.0
@@ -27,10 +27,10 @@ data-files:
     res/ui/logo.svg
     res/ui/manifest.json
     res/ui/service-worker.js
-    res/ui/static/css/main.47759a34.chunk.css
-    res/ui/static/css/main.47759a34.chunk.css.map
-    res/ui/static/js/main.13dcbf68.chunk.js
-    res/ui/static/js/main.13dcbf68.chunk.js.map
+    res/ui/static/css/main.2f3cb15a.chunk.css
+    res/ui/static/css/main.2f3cb15a.chunk.css.map
+    res/ui/static/js/main.09d2e5d4.chunk.js
+    res/ui/static/js/main.09d2e5d4.chunk.js.map
     res/ui/static/js/runtime~main.d53d57e4.js
     res/ui/static/js/runtime~main.d53d57e4.js.map
     res/ui/static/js/vendors~main.3ca81432.chunk.js

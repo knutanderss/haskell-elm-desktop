@@ -144,6 +144,7 @@ postApiUsersCreatejson body toMsg =
         , url =
             Url.Builder.absolute
                 [ ""
+                , "localhost:8000"
                 , "api"
                 , "users"
                 , "create.json"

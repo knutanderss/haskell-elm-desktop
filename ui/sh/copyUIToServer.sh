@@ -1,1 +1,1 @@
-cp -R build ../res/ui
+cp -Rf build ../res/ui

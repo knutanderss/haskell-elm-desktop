@@ -1,3 +1,5 @@
 .stack-work/
 mdnotes.cabal
 *~
+ui/build
+res/ui
